@@ -5,7 +5,7 @@ package_name = 'rosidl_runtime_py'
 
 setup(
     name=package_name,
-    version='0.16.1',
+    version='0.15.3',
     packages=find_packages(exclude=['test']),
     data_files=[
         ('share/' + package_name, ['package.xml']),
@@ -30,7 +30,7 @@ setup(
     long_description=(
         'This package provides functions for operations such as populating ROS messages '
         'and converting messages to different representations.'),
-    license='Apache-2.0',
+    license='Apache License, Version 2.0',
     extras_require={
         'test': [
             'pytest',
