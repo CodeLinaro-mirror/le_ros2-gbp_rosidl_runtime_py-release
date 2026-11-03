@@ -2,25 +2,15 @@
 Changelog for package rosidl_runtime_py
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.15.3 (2026-11-03)
+0.14.3 (2026-11-03)
 -------------------
-* Make custom YAML for ordereddict respect flow_style argument (`#45 <https://github.com/ros2/rosidl_runtime_py/issues/45>`_) (`#46 <https://github.com/ros2/rosidl_runtime_py/issues/46>`_)
+* Make custom YAML for ordereddict respect flow_style argument (`#45 <https://github.com/ros2/rosidl_runtime_py/issues/45>`_) (`#47 <https://github.com/ros2/rosidl_runtime_py/issues/47>`_)
 * Contributors: mergify[bot]
 
-0.15.2 (2026-04-09)
+0.14.2 (2026-04-09)
 -------------------
-* Add support for rosidl::Buffer in rosidl Python path for rclpy (`#39 <https://github.com/ros2/rosidl_runtime_py/issues/39>`_)
-* Fix flake8 (`#40 <https://github.com/ros2/rosidl_runtime_py/issues/40>`_)
-* Add py.typed to the package (`#37 <https://github.com/ros2/rosidl_runtime_py/issues/37>`_)
-* Contributors: CY Chen, Michael Carlstrom, Vladimir Gerts
-
-0.15.1 (2025-07-29)
--------------------
-* fix setuptools deprecations (`#35 <https://github.com/ros2/rosidl_runtime_py/issues/35>`_)
-* Contributors: mosfet80
-
-0.15.0 (2025-04-25)
--------------------
+* Add py.typed to the package (`#37 <https://github.com/ros2/rosidl_runtime_py/issues/37>`_) (`#38 <https://github.com/ros2/rosidl_runtime_py/issues/38>`_)
+* Contributors: mergify[bot]
 
 0.14.1 (2025-04-18)
 -------------------
