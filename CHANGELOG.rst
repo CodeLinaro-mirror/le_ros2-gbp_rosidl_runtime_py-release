@@ -2,24 +2,19 @@
 Changelog for package rosidl_runtime_py
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.14.3 (2026-11-03)
+0.13.3 (2026-11-03)
 -------------------
-* Make custom YAML for ordereddict respect flow_style argument (`#45 <https://github.com/ros2/rosidl_runtime_py/issues/45>`_) (`#47 <https://github.com/ros2/rosidl_runtime_py/issues/47>`_)
+* Make custom YAML for ordereddict respect flow_style argument (`#45 <https://github.com/ros2/rosidl_runtime_py/issues/45>`_) (`#48 <https://github.com/ros2/rosidl_runtime_py/issues/48>`_)
 * Contributors: mergify[bot]
 
-0.14.2 (2026-04-09)
+0.13.2 (2026-06-02)
 -------------------
-* Add py.typed to the package (`#37 <https://github.com/ros2/rosidl_runtime_py/issues/37>`_) (`#38 <https://github.com/ros2/rosidl_runtime_py/issues/38>`_)
+* Remove CODEOWNERS and mirror-rolling-to-master. (`#31 <https://github.com/ros2/rosidl_runtime_py/issues/31>`_) (`#32 <https://github.com/ros2/rosidl_runtime_py/issues/32>`_)
+  They are both outdated and they both are not serving
+  their intended purpose anymore.
+  (cherry picked from commit e6c860fec22ffc44556d6d87f730e2d07a8cc62b)
+  Co-authored-by: Chris Lalancette <clalancette@gmail.com>
 * Contributors: mergify[bot]
-
-0.14.1 (2025-04-18)
--------------------
-* Use deepcopy in set_message_fields for safety. (`#34 <https://github.com/ros2/rosidl_runtime_py/issues/34>`_)
-* Remove CODEOWNERS and mirror-rolling-to-master. (`#31 <https://github.com/ros2/rosidl_runtime_py/issues/31>`_)
-* Contributors: Chris Lalancette, Tomoya Fujita
-
-0.14.0 (2024-04-26)
--------------------
 
 0.13.1 (2024-03-27)
 -------------------
