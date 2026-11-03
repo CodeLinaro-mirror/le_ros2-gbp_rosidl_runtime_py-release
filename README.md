@@ -1,3 +1,26 @@
+## rosidl_runtime_py (jazzy) - 0.13.3-1
+
+The packages in the `rosidl_runtime_py` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --rosdistro jazzy --track jazzy rosidl_runtime_py` on `Tue, 03 Nov 2026 12:32:05 -0000`
+
+The `rosidl_runtime_py` package was released.
+
+Version of package(s) in repository `rosidl_runtime_py`:
+
+- upstream repository: https://github.com/ros2/rosidl_runtime_py.git
+- release repository: https://github.com/ros2-gbp/rosidl_runtime_py-release.git
+- rosdistro version: `0.13.2-1`
+- old version: `0.13.2-1`
+- new version: `0.13.3-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.4`
+- catkin_pkg version: `1.1.1`
+- rosdep version: `0.27.0`
+- rosdistro version: `1.1.0`
+- vcstools version: `0.1.42`
+
+
 ## rosidl_runtime_py (kilted) - 0.14.3-1
 
 The packages in the `rosidl_runtime_py` repository were released into the `kilted` distro by running `/usr/bin/bloom-release --rosdistro kilted --track kilted rosidl_runtime_py` on `Tue, 03 Nov 2026 12:30:34 -0000`
