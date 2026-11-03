@@ -2,48 +2,15 @@
 Changelog for package rosidl_runtime_py
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.13.3 (2026-11-03)
--------------------
-* Make custom YAML for ordereddict respect flow_style argument (`#45 <https://github.com/ros2/rosidl_runtime_py/issues/45>`_) (`#48 <https://github.com/ros2/rosidl_runtime_py/issues/48>`_)
+0.9.4 (2026-11-03)
+------------------
+* Make custom YAML for ordereddict respect flow_style argument (`#45 <https://github.com/ros2/rosidl_runtime_py/issues/45>`_) (`#49 <https://github.com/ros2/rosidl_runtime_py/issues/49>`_)
 * Contributors: mergify[bot]
 
-0.13.2 (2026-06-02)
--------------------
-* Remove CODEOWNERS and mirror-rolling-to-master. (`#31 <https://github.com/ros2/rosidl_runtime_py/issues/31>`_) (`#32 <https://github.com/ros2/rosidl_runtime_py/issues/32>`_)
-  They are both outdated and they both are not serving
-  their intended purpose anymore.
-  (cherry picked from commit e6c860fec22ffc44556d6d87f730e2d07a8cc62b)
-  Co-authored-by: Chris Lalancette <clalancette@gmail.com>
-* Contributors: mergify[bot]
-
-0.13.1 (2024-03-27)
--------------------
-* Some fixes for modern flake8. (`#25 <https://github.com/ros2/rosidl_runtime_py/issues/25>`_)
-* Contributors: Chris Lalancette
-
-0.13.0 (2023-04-28)
--------------------
-
-0.12.0 (2023-04-11)
--------------------
-* Replace the use __slots_\_ for the appropiate API (`#23 <https://github.com/ros2/rosidl_runtime_py/issues/23>`_)
-* fix(typing): `get_interface_packages` returns a dict (`#22 <https://github.com/ros2/rosidl_runtime_py/issues/22>`_)
-* Contributors: Eloy Briceno, 兰陈昕
-
-0.11.1 (2023-02-13)
--------------------
-* [rolling] Update maintainers - 2022-11-07 (`#21 <https://github.com/ros2/rosidl_runtime_py/issues/21>`_)
-* Contributors: Audrow Nash
-
-0.11.0 (2022-09-13)
--------------------
-* Expand timestamps for std_msgs.msg.Header and builtin_interfaces.msg.Time if 'auto' and 'now' are passed as values (`#19 <https://github.com/ros2/rosidl_runtime_py/issues/19>`_)
-* Document a missing parameter in message_to_yaml. (`#18 <https://github.com/ros2/rosidl_runtime_py/issues/18>`_)
-* Mirror rolling to master
-* Contributors: Audrow Nash, Chris Lalancette, Esteve Fernandez
-
-0.10.0 (2022-05-04)
--------------------
+0.9.3 (2022-11-07)
+------------------
+* [humble] Backport. Expand timestamps for std_msgs.msg.Header and builtin_interfaces.msg.Time if 'auto' and 'now' are passed as values (`#20 <https://github.com/ros2/rosidl_runtime_py/issues/20>`_)
+* Contributors: Esteve Fernandez
 
 0.9.2 (2022-03-28)
 ------------------
